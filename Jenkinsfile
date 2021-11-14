@@ -6,7 +6,7 @@ pipeline {
                 script{
                     checkout([$class: 'GitSCM', branches: [[name: '*/master']],
                         userRemoteConfigs: [[
-                            credentialsId: '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',
+                            credentialsId: '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',
                             url: 'https://github.com/ibtihel-bedoui/devops.git']]])
                 }
             }
